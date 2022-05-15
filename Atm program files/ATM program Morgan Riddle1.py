@@ -59,55 +59,55 @@ class atm:
 
 
 #Number buttons for entering values in the atm#
-        self.img1 = PhotoImage(file ="E:/Atm program files/one.png")
+        self.img1 = PhotoImage(file ="one.png")
         self.btn1=Button(TopFrame1, width=155, height=75, image=self.img1) .grid(row=2, column =0, padx=2, pady =4)
         #Number 1 Button#
 
-        self.img2 = PhotoImage(file ="E:/Atm program files/two.png")
+        self.img2 = PhotoImage(file ="two.png")
         self.btn2=Button(TopFrame1, width=155, height=75, image=self.img2) .grid(row=2, column =1, padx=2, pady =4)
         #Number 2 Button#
 
-        self.img3 = PhotoImage(file ="E:/Atm program files/three.png")
+        self.img3 = PhotoImage(file ="three.png")
         self.btn3=Button(TopFrame1, width=155, height=75, image=self.img3) .grid(row=2, column =2, padx=2, pady =4)
         #Number 3 Button#
 
-        self.img4 = PhotoImage(file ="E:/Atm program files/four.png")
+        self.img4 = PhotoImage(file ="four.png")
         self.btn4=Button(TopFrame1, width=155, height=75, image=self.img4) .grid(row=3, column =0, padx=2, pady =4)
         #Number 4 Button#
 
-        self.img5 = PhotoImage(file ="E:/Atm program files/five.png")
+        self.img5 = PhotoImage(file ="five.png")
         self.btn5=Button(TopFrame1, width=155, height=75, image=self.img5) .grid(row=3, column =1, padx=2, pady =4)
         #Number 5 Button#
         
-        self.img6 = PhotoImage(file ="E:/Atm program files/six.png")
+        self.img6 = PhotoImage(file ="six.png")
         self.btn6=Button(TopFrame1, width=155, height=75, image=self.img6) .grid(row=3, column =2, padx=2, pady =4)
         #Number 6 Button#
         
-        self.img7 = PhotoImage(file ="E:/Atm program files/seven.png")
+        self.img7 = PhotoImage(file ="seven.png")
         self.btn7=Button(TopFrame1, width=155, height=75, image=self.img7) .grid(row=4, column =0, padx=2, pady =4)
         #Number 7 Button#
         
-        self.img8 = PhotoImage(file ="E:/Atm program files/eight.png")
+        self.img8 = PhotoImage(file ="eight.png")
         self.btn8=Button(TopFrame1, width=155, height=75, image=self.img8) .grid(row=4, column =1, padx=2, pady =4)
         #Number 8 Button#
         
-        self.img9 = PhotoImage(file ="E:/Atm program files/nine.png")
+        self.img9 = PhotoImage(file ="nine.png")
         self.btn9=Button(TopFrame1, width=155, height=75, image=self.img9) .grid(row=4, column =2, padx=2, pady =4)
         #Number 9 Button#
 
-        self.img0 = PhotoImage(file ="E:/Atm program files/zero.png")
+        self.img0 = PhotoImage(file ="zero.png")
         self.btn0=Button(TopFrame1, width=155, height=75, image=self.img0) .grid(row=5, column =1, padx=2, pady =4)
         #Number 0 Button#
 
-        self.imgExit = PhotoImage(file ="E:/Atm program files/Exit.png")
+        self.imgExit = PhotoImage(file ="Exit.png")
         self.btnExit=Button(TopFrame1, width=155, height=75, image=self.imgExit) .grid(row=4, column =3, padx=2, pady =4)
         #Back or Exit Menu Button#
 
-        self.imgEnter = PhotoImage(file ="E:/Atm program files/Enter.png")
+        self.imgEnter = PhotoImage(file ="Enter.png")
         self.btnEnter=Button(TopFrame1, width=155, height=75, image=self.imgEnter) .grid(row=2, column =3, padx=2, pady =4)
         #Enter Button#
 
-        self.imgCl = PhotoImage(file ="E:/Atm program files/Cl.png")
+        self.imgCl = PhotoImage(file ="Cl.png")
         self.btnClear=Button(TopFrame1, width=155, height=75, image=self.imgCl) .grid(row=3, column =3, padx=2, pady =4)
 
      ###########################################################################################################################
@@ -154,7 +154,7 @@ class atm:
                 self.txtReceipt = Text(TopFrame2M, height = 16, width=42, bd=12, font=('new roman',10,'bold'))
         self.txtReceipt.grid(row=0, column =0)
                     #Buttons Left Side#
-        self.img_arrow_L = PhotoImage(file ="E:/Atm program files/arrowL.png")
+        self.img_arrow_L = PhotoImage(file ="arrowL.png")
         
         self.btnArrowL1=Button(TopFrame2L, width=155, height=50, state = DISABLED, image=self.img_arrow_L) .grid(row=0, column =0, padx=2, pady =4)
 
@@ -165,7 +165,7 @@ class atm:
         self.btnArrowL4=Button(TopFrame2L, width=155, height=50, state = DISABLED, image=self.img_arrow_L) .grid(row=3, column =0, padx=2, pady =4)    
 
         
-        self.img_arrow_R = PhotoImage(file ="E:/Atm program files/arrowR.png")
+        self.img_arrow_R = PhotoImage(file ="arrowR.png")
 
         self.btnArrowR1=Button(TopFrame2R, width=155, height=50, state = DISABLED, image=self.img_arrow_R) .grid(row=0, column =0, padx=2, pady =4)
 
@@ -183,7 +183,7 @@ class atm:
         self.txtReceipt = Text(TopFrame2M, height = 16, width=42, bd=12, font=('new roman',10,'bold'))
         self.txtReceipt.grid(row=0, column =0)
                     #Buttons Left Side#
-        self.img_arrow_L = PhotoImage(file ="E:/Atm program files/arrowL.png")
+        self.img_arrow_L = PhotoImage(file ="arrowL.png")
         
         self.btnArrowL1=Button(TopFrame2L, width=155, height=50, state = DISABLED, image=self.img_arrow_L) .grid(row=0, column =0, padx=2, pady =4)
 
@@ -194,7 +194,7 @@ class atm:
         self.btnArrowL4=Button(TopFrame2L, width=155, height=50, state = DISABLED, image=self.img_arrow_L) .grid(row=3, column =0, padx=2, pady =4)    
 
         
-        self.img_arrow_R = PhotoImage(file ="E:/Atm program files/arrowR.png")
+        self.img_arrow_R = PhotoImage(file ="arrowR.png")
 
         self.btnArrowR1=Button(TopFrame2R, width=155, height=50, state = DISABLED, image=self.img_arrow_R) .grid(row=0, column =0, padx=2, pady =4)
 
@@ -204,61 +204,61 @@ class atm:
 
         self.btnArrowR4=Button(TopFrame2R, width=155, height=50, state = DISABLED, image=self.img_arrow_R) .grid(row=3, column =0, padx=2, pady =4)
 
-        self.img1 = PhotoImage(file ="E:/Atm program files/one.png")
+        self.img1 = PhotoImage(file ="one.png")
         self.btn1=Button(TopFrame1, width=155, height=75, image=self.img1) .grid(row=2, column =0, padx=2, pady =4)
         #Number 1 Button#
 
-        self.img2 = PhotoImage(file ="E:/Atm program files/two.png")
+        self.img2 = PhotoImage(file ="two.png")
         self.btn2=Button(TopFrame1, width=155, height=75, image=self.img2) .grid(row=2, column =1, padx=2, pady =4)
         #Number 2 Button#
 
-        self.img3 = PhotoImage(file ="E:/Atm program files/three.png")
+        self.img3 = PhotoImage(file ="three.png")
         self.btn3=Button(TopFrame1, width=155, height=75, image=self.img3) .grid(row=2, column =2, padx=2, pady =4)
         #Number 3 Button#
 
-        self.img4 = PhotoImage(file ="E:/Atm program files/four.png")
+        self.img4 = PhotoImage(file ="four.png")
         self.btn4=Button(TopFrame1, width=155, height=75, image=self.img4) .grid(row=3, column =0, padx=2, pady =4)
         #Number 4 Button#
 
-        self.img5 = PhotoImage(file ="E:/Atm program files/five.png")
+        self.img5 = PhotoImage(file ="five.png")
         self.btn5=Button(TopFrame1, width=155, height=75, image=self.img5) .grid(row=3, column =1, padx=2, pady =4)
         #Number 5 Button#
         
-        self.img6 = PhotoImage(file ="E:/Atm program files/six.png")
+        self.img6 = PhotoImage(file ="six.png")
         self.btn6=Button(TopFrame1, width=155, height=75, image=self.img6) .grid(row=3, column =2, padx=2, pady =4)
         #Number 6 Button#
         
-        self.img7 = PhotoImage(file ="E:/Atm program files/seven.png")
+        self.img7 = PhotoImage(file ="seven.png")
         self.btn7=Button(TopFrame1, width=155, height=75, image=self.img7) .grid(row=4, column =0, padx=2, pady =4)
         #Number 7 Button#
         
-        self.img8 = PhotoImage(file ="E:/Atm program files/eight.png")
+        self.img8 = PhotoImage(file ="eight.png")
         self.btn8=Button(TopFrame1, width=155, height=75, image=self.img8) .grid(row=4, column =1, padx=2, pady =4)
         #Number 8 Button#
         
-        self.img9 = PhotoImage(file ="E:/Atm program files/nine.png")
+        self.img9 = PhotoImage(file ="nine.png")
         self.btn9=Button(TopFrame1, width=155, height=75, image=self.img9) .grid(row=4, column =2, padx=2, pady =4)
         #Number 9 Button#
 
-        self.img0 = PhotoImage(file ="E:/Atm program files/zero.png")
+        self.img0 = PhotoImage(file ="zero.png")
         self.btn0=Button(TopFrame1, width=155, height=75,command=insert0, image=self.img0) .grid(row=5, column =1, padx=2, pady =4)
         #Number 0 Button#
 
-        self.imgExit = PhotoImage(file ="E:/Atm program files/Exit.png")
+        self.imgExit = PhotoImage(file ="Exit.png")
         self.btnExit=Button(TopFrame1, width=155, height=75, image=self.imgExit) .grid(row=4, column =3, padx=2, pady =4)
         #Back or Exit Menu Button#
 
-        self.imgEnter = PhotoImage(file ="E:/Atm program files/Enter.png")
+        self.imgEnter = PhotoImage(file ="Enter.png")
         self.btnEnter=Button(TopFrame1, width=155, height=75,command= enter_pin, image=self.imgEnter) .grid(row=2, column =3, padx=2, pady =4)
         #Enter Button#
 
-        self.imgCl = PhotoImage(file ="E:/Atm program files/Cl.png")
+        self.imgCl = PhotoImage(file ="Cl.png")
         self.btnClear=Button(TopFrame1, width=155, height=75, image=self.imgCl) .grid(row=3, column =3, padx=2, pady =4)
 
             
 
 
-#for pin number#
+
        
 
                 
